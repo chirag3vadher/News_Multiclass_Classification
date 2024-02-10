@@ -30,8 +30,8 @@ if __name__ == "__main__":
     print("Accuracy on test data = %0.2f%%" % acc)
 
     # Save the finetuned model
-    output_model_file = f'\Model\\pytorch_distilbert_news_{time.time}.bin'
-    output_vocab_file = f'\models\\vocab_distilbert_news{time.time}.bin'
+    output_model_file = f'\Model\pytorch_distilbert_news_{time.time}.bin'
+    output_vocab_file = f'\models\vocab_distilbert_news{time.time}.bin'
 
     model_to_save = model
     torch.save(model_to_save, output_model_file)
