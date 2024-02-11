@@ -12,8 +12,8 @@ EPOCHS = 1
 MAX_LEN = 512
 train_size = 0.8
 training_data = training_data
-# Creating the dataset and dataloader for the neural network
 
+# Creating the dataset and dataloader for the neural network
 if __name__ == "__main__":
 
     #preprocessing section
